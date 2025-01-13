@@ -1,0 +1,23 @@
+[project]
+name = "linear-token-predictor"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "datasets>=3.2.0",
+    "transformers>=4.48.0",
+    "torch>=2.5.1",
+    "tqdm>=4.67.1",
+    "prodigyopt>=1.1.1",
+    "jupyterlab>=4.3.4",
+    "ruff>=0.9.1",
+    "protobuf>=5.29.3",
+    "sentencepiece>=0.2.0",
+    "python-chess>=1.999",
+    "ipywidgets>=8.1.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
